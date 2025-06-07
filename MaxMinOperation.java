@@ -21,6 +21,8 @@ package basic;
  */
 // Approach -1 using Sorting 
 /* Sorting takes O(n log n) time complexity which is very slower (this approach is not-recomended) */
+// Approach - 2 without sorting
+/* to find median the array must be sorted */
 import java.util.Scanner;
 import java.util.Arrays;
 public class MaxMinOperation {
@@ -57,6 +59,7 @@ public class MaxMinOperation {
        }
        double result = (Zetafield*Omegawave) + median;
        System.out.println(result);
+
 
 
 
