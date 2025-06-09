@@ -1,5 +1,5 @@
 // Binary Search 
-public class BinarySearch{
+public class BinarySearch1{
     public static void main(String[] args){
      int[] arr= {1,3,5,7,9};
      int target= 4;
