@@ -5,7 +5,7 @@ public class BinarySearch{
      int target= 4;
     int low =0,high= arr.length-1;
      while (low<=high){
-      mid =(low+high)/2;
+    int  mid =(low+high)/2;
         if (arr[mid]==target)
          System.out.println("Found");
         else if (target>arr[mid])
